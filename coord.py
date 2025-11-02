@@ -1,7 +1,7 @@
 # Script by mmonroe@PhantomDevOps
 # Script scales with square world sizes.
 
-def coord(x, y):
+def coord(x=0, y=0):
   
 	# Sanitation - helps prevent needless movement wth values greater than world size. (Doesn't work with negative values)
 	if x > get_world_size():
